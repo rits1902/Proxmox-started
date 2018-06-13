@@ -1,0 +1,6 @@
+---
+api_user: user@pve
+api_password: doctor_stranger
+api_host: you_web_site
+newid: 480
+node: name_the_host

@@ -1,0 +1,8 @@
+- name: Running the host
+  proxmox_kvm:
+    api_user     : "{{ api_user }}"
+    api_password : "{{ api_password }}"
+    api_host     : "{{ api_host }}"
+    vmid         : "{{ newid }}"
+    node         : "{{ node }}"
+    state        :  started
